@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+#navbar {
+    width: 100%;
+    height: 70px;
+    background: rgba( 255, 255, 255, 0.45 );
+backdrop-filter: blur( 7.5px );
+-webkit-backdrop-filter: blur( 7.5px );
+border-bottom: 0.02px solid #718096;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#logo {
+    width: 158px;
+    height: 55px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+header button {
+background: linear-gradient(145deg, #8443f4, #6f39cd);
+    color: #fff;
+    border: none;
+    font-family: 'Roobert', sans-serif;
+    font-size: 1rem;
+    float: right;
+    border-radius: 15px;
+    font-weight: 600;
+    width: 170px;
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    letter-spacing: 0.6px;
+    transition: all ease 1s;
+}
+header button:hover {
+    background: linear-gradient(145deg, #6f39cd, #8443f4);
+}
+nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: -55px;
+    margin-left: 185px;
+    /* position: absolute; */
+}
+nav li {
+    display: inline;
+}
+nav a {
+    color: #000;
+        font-size: 1rem;
+        display: inline-block;
+        padding: 1rem;
+        text-decoration: none;
+        transition: all 1s none;
+        font-family: 'Roobert', sans-serif;
+        transition: all ease 0.7s;
+}
+nav a:hover {
+    color: #7b3fe4;
+}
+@media (max-width : 1000px) {
+    nav {
+        display: none;
+    }
+}
+main h1 {
+    font-family: 'Roobert', sans-serif;
+    color: #7b3fe4;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 80px;
+    line-height: 40px;
+}
+main p {
+    text-align: center;
+    font-family: 'Roobert', sans-serif;
+    margin: 25px;
+    line-height: 28px;
+    color: #718096;
+    font-size: 1.1rem;
+}
