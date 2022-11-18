@@ -80,13 +80,13 @@ main h1 {
     color: #7b3fe4;
     font-size: 2rem;
     text-align: center;
-    margin-top: 85px;
+    margin-top: 170px;
     line-height: 40px;
 }
 main p {
     text-align: center;
     font-family: 'Roobert', sans-serif;
-    margin: 25px;
+    margin: 30px;
     line-height: 28px;
     color: #718096;
     font-size: 1.1rem;
@@ -96,7 +96,7 @@ main p {
         font-size: 2.7rem;
         margin: 120px;
         line-height: 50px;
-        margin-top: 100px;
+        margin-top: 190px;
         font-weight: 700;
     }
     main p {
@@ -142,4 +142,62 @@ main p {
     header button {
         margin-right: 80px;
     }
+}
+/* main video {
+    width: 100%;
+    height: 500px;
+    margin-top: 70px;
+} */
+
+.scroll-downs {
+    margin-top: 70px;
+    right: 0;
+    bottom: 0;
+    margin-left: 170px;
+    width :34px;
+    height: 55px;
+  }
+  .mousey {
+    width: 3px;
+    padding: 10px 15px;
+    height: 35px;
+    border: 2px solid #7b3fe4;
+    border-radius: 25px;
+    opacity: 0.75;
+    box-sizing: content-box;
+  }
+  .scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    background-color: #7b3fe4;
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+    animation-iteration-count: infinite;
+  }
+  @keyframes scroll {
+    0% { opacity: 0; }
+    10% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(15px); opacity: 0;}
+  }
+  @media (min-width : 400px) {
+      .scroll-downs {
+          margin-left: 193px;
+      }
+  }
+  @media (min-width : 768px) {
+    .scroll-downs {
+        margin-left: 365px;
+    }
+}
+@media (min-width : 1000px) {
+    .scroll-downs {
+        margin-left: 510px;
+    }
+}
+@media (min-width : 1220px) {
+    .scroll-downs {
+        margin-left: 650px;
+}
 }
