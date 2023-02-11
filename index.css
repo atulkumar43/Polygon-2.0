@@ -218,7 +218,7 @@ main #sub1 {
     width: 300px;
     height: 660px;
     background-color: #7b3fe4;
-    margin-left: 38px;
+    margin-left: 28px;
     margin-top: 80px;
     border-radius: 20px;
     transition: all ease 1s;
@@ -381,7 +381,7 @@ main #sub1 {
     height: 400px;
     border: 2px solid #7b3fe4;
     margin-top: 800px;
-    margin-left: 38px;
+    margin-left: 28px;
     border-radius: 20px;
 }
 .box1 h1 {
@@ -483,6 +483,9 @@ main #sub1 {
     .box1 #txt2 {
         font-size: 0.9rem;
     }
+    .box1 button {
+        margin-left: 32px;
+    }
 }
 @media(min-width : 1000px){
     .box1 {
@@ -550,12 +553,125 @@ main #sub1 {
     }
 }
 .container2 {
-    width: 100px;
-    height: 100px;
-    background: rgba( 123, 63, 228, 0.3 );
-/* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
-backdrop-filter: blur( 4.5px );
--webkit-backdrop-filter: blur( 4.5px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 300px;
+    height: 300px;
+    border: 2px solid #7b3fe4;
+    margin-top: 60px;
+    margin-left: 28px;
+    border-radius: 20px;
+}
+.container2 h1 {
+    text-align: center;
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 5px;
+    font-family: 'Roobert', sans-serif;
+}
+.container2 #sub3 {
+    text-align: center;
+    font-family: 'Roobert', sans-serif;
+    color: #718096;
+    font-size: 0.8rem;
+    margin-right: 22px;
+    margin-left: 20px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+.container2 button {
+    background: linear-gradient(145deg, #8443f4, #6f39cd);
+            color: #fff;
+            border: none;
+            font-family: 'Roobert', sans-serif;
+            font-size: 1rem;
+            border-radius: 15px;
+            font-weight: 600;
+            width: 180px;
+            height: 50px;
+            text-align: center;
+            margin-top: 40px;
+            margin-right: 10px;
+            margin-left: 55px;
+            letter-spacing: 0.6px;
+            transition: all ease 1s;
+}
+.container2 button:hover {
+    background: linear-gradient(145deg, #6f39cd, #8443f4);
+}
+.container2 img {
+    display: none;
+}
+@media(min-width : 768px) {
+    .container2 {
+        margin-top: 100px;
+        width: 680px;
+        height : 310px;
+        margin-left: 43px;
+    }
+    .container2 h1 {
+        text-align: left;
+        font-size: 25px;
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 310px;
+    }
+    .container2 #sub3 {
+        margin-top: 15px;
+        margin-left: 35px;
+        font-size: 0.9rem;
+        margin-right: 250px;
+        margin-top: -100px;
+        text-align: left;
+    }
+    .container2 button {
+        margin-left: 32px;
+    }
+}
+@media(min-width : 1000px) {
+    .container2 {
+        width: 890px;
+        margin-left: 68px;
+        height: 390px;
+    }
+    .container2 h1 {
+        margin-right: 390px;
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .container2 #sub3 {
+        margin-right: 500px;
+        font-size: 1.1rem;
+        line-height: 25px;
+    }
+    .container2 img {
+        display: block;
+        width: 300px;
+        height: 300px;
+        float: right;
+        margin-top: -239px;
+        margin-right: 50px;
+    }
+}
+@media(min-width : 1220px) {
+    .container2 {
+        width: 1150px;
+        margin-left: 100px;
+    }
+    .container2 h1 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-right: 600px;
+    }
+    .container2 #sub3 {
+        margin-left: 50px;
+        font-size: 1.1rem;
+        margin-right: 600px;
+    }
+    .container2 button {
+        margin-left: 55px;
+    }
 }
