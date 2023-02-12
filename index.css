@@ -720,7 +720,7 @@ main #sub1 {
 }
 .pol_zk {
     border: 1px solid #c0c7d1;
-    margin-top: -40px;
+    margin-top: 40px;
     width: 300px;
     height: 240px;
     margin-top: 60px;
@@ -877,4 +877,350 @@ main #sub1 {
     margin-left: 26px;
     text-align: left;
     color: #000;
+}
+@media(min-width : 768px) {
+    .sol p {
+        font-size: 1rem;
+        margin-top: -120px;
+        /* color: red; */
+    }
+    .sol h1 {
+        font-size: 30px;
+    }
+    .pol_PoS {
+        margin-left: 70px;
+    }
+    .pol_PoS h1 {
+        font-size: 16px;
+    }
+    .pol_PoS p {
+        font-size: 14px;
+    }
+    .pol_zk {
+        float: right;
+        margin-top: -220px;
+        margin-right: 70px;
+    }
+    .pol_zk h1 {
+        font-size: 16px;
+    }
+    .pol_zk p {
+        font-size: 14px;
+    }
+    .pol_ed {
+        margin-left: 70px;
+        margin-top: -1px;
+    }
+    .pol_ed h1 {
+        font-size: 16px;
+    }
+    .pol_ed p {
+        font-size: 14px;
+    }
+    .pol_mi {
+        float: right;
+        margin-right: 70px;
+        margin-top: -200px;
+    }
+    .pol_mi h1 {
+        font-size: 16px;
+    }
+    .pol_mi p {
+        font-size: 14px;
+    }
+    .pol_ze {
+        margin-left: 70px;
+        margin-top: -1px;
+    }
+    .pol_ze h1 {
+        font-size: 16px;
+    }
+    .pol_ze p {
+        font-size: 14px;
+    }
+    .pol_su {
+        float: right;
+        margin-top: -238.8px;
+        margin-right: 70px;
+    }
+    .pol_su h1 {
+        font-size: 16px;
+    }
+    .pol_su p {
+        font-size: 14px;
+    }
+}
+@media(min-width : 1000px) {
+    .sol h1 {
+        font-size: 3rem;
+    }
+    .sol p {
+        font-size: 1.3rem;
+    }
+    .pol_PoS {
+        width: 380px;
+        margin-left: 100px;
+    }
+    .pol_PoS h1 {
+        margin-top: 1px;
+        font-size: 18px;
+    }
+    .pol_PoS p {
+        font-size: 16px;
+    }
+    .pol_zk {
+        width: 380px;
+        margin-right: 100px;
+    }
+    .pol_zk h1 {
+        margin-top: 1px;
+        font-size: 18px;
+    }
+    .pol_zk p {
+        font-size: 16px;
+    }
+    .pol_ed {
+        width: 380px;
+        margin-left: 100px;
+        height: 240px;
+    }
+    .pol_ed h1 {
+        margin-top: 1px;
+        font-size: 18px;
+    }
+    .pol_ed p {
+        font-size: 16px;
+    }
+    .pol_mi {
+        width: 380px;
+        margin-right: 100px;
+        height: 220px;
+        margin-top: -220px;
+    }
+    .pol_mi h1 {
+        margin-top: 1px;
+        font-size: 18px;
+    }
+    .pol_mi p {
+        font-size: 16px;
+    }
+    .pol_ze {
+        width: 380px;
+        margin-left: 100px;
+    }
+    .pol_ze h1 {
+        margin-top: 1px;
+        font-size: 18px;
+    }
+    .pol_ze p {
+        font-size: 16px;
+    }
+    .pol_su {
+        width: 380px;
+        margin-right: 100px;
+    }
+    .pol_su h1 {
+        margin-top: 1px;
+        font-size: 18px;
+    }
+    .pol_su p {
+        font-size: 16px;
+    }
+}
+@media(min-width : 1220px) {
+    .pol_PoS {
+        height: 220px;
+        width: 490px;
+        margin-left: 160px;
+    }
+    .pol_zk {
+        height: 220px;
+        width: 490px;
+        float: none;
+        margin-left: 650px;
+    }
+    .pol_ed {
+        margin-left: 160px;
+        height: 220px;
+        width: 490px;
+        /* float: none; */
+        /* margin-left: 510px; */
+    }
+    .pol_su {
+        height: 220px;
+        width: 490px;
+        margin-top: -220px;
+        float: none;
+        margin-left: 650px;
+    }
+    .pol_mi {
+        height: 220px;
+        width: 490px;
+        float: none;
+        margin-left: 650px;
+    }
+    .pol_ze {
+        margin-left: 160px;
+        height: 220px;
+        width: 490px;
+    }
+}
+.pol_acc h1{
+    font-size: 25px;
+    margin-top: 80px;
+    font-family: 'Roobert', sans-serif;
+    color: #7b3fe4;
+}
+.eth_com img {
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin-top: 40px;
+    margin-left: 130px;
+}
+.eth_com h1 {
+    margin-top: 10px;
+    color: #000;
+    font-size: 19px;
+}
+.eth_com p {
+    font-family: 'Roobert', sans-serif;
+    color: #718096;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 22px;
+}
+.eth_sc img {
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin-top: 40px;
+    margin-left: 140px;
+}
+.eth_sc h1 {
+    margin-top: 10px;
+    color: #000;
+    font-size: 19px;
+}
+.eth_sc p {
+    font-family: 'Roobert', sans-serif;
+    color: #718096;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 22px;
+}
+.eth_se img {
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin-top: 40px;
+    margin-left: 140px;
+}
+.eth_se h1 {
+    margin-top: 10px;
+    color: #000;
+    font-size: 19px;
+}
+.eth_se p {
+    font-family: 'Roobert', sans-serif;
+    color: #718096;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 22px;
+}
+.eth_de img {
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin-top: 40px;
+    margin-left: 140px;
+}
+.eth_de h1 {
+    margin-top: 10px;
+    color: #000;
+    font-size: 19px;
+}
+.eth_de p {
+    font-family: 'Roobert', sans-serif;
+    color: #718096;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 22px;
+}
+@media (min-width : 768px) {
+    .pol_acc h1 {
+        font-size: 30px;
+        margin-left: 23px;
+        margin-right: 20px;
+    }
+    .eth_com img {
+        margin-left: 160px;
+        margin-top: -100px;
+    }
+    .eth_com h1 {
+        margin-left: -350px;
+        font-size: 19px;
+    }
+    .eth_com p {
+        float: left;
+        margin-top: -120px;
+        margin-right: 420px;
+        margin-left: 50px;
+    }
+    .eth_sc img {
+        float: right;
+        margin-right: 160px;
+        margin-top: -250px;
+    }
+    .eth_sc h1 {
+        margin-right: 150px;
+    margin-top: -170px;
+        float: right;
+        font-size: 19px;
+    }
+    .eth_sc p {
+        float: right;
+        margin-top: -120px;
+        margin-left: 420px;
+        margin-right: 50px;
+    }
+    .eth_se img {
+        margin-left: 160px;
+        margin-top: -60px;
+    }
+    .eth_se h1 {
+        margin-left: -350px;
+        font-size: 19px;
+    }
+    .eth_se p {
+        float: left;
+        margin-top: -120px;
+        margin-right: 420px;
+        margin-left: 50px;
+    }
+    .eth_de img {
+        float: right;
+        margin-right: 160px;
+        margin-top: -250px;
+    }
+    .eth_de h1 {
+        margin-right: 100px;
+    margin-top: -170px;
+        float: right;
+        font-size: 19px;
+    }
+    .eth_de p {
+        float: right;
+        margin-top: -120px;
+        margin-left: 420px;
+        margin-right: 50px;
+    }
 }
